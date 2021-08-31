@@ -1,0 +1,14 @@
+.container-fluid{
+    background-color: #000000;
+}
+.visina{
+    height: 100vh;
+}
+
+.visina .container-fluid{
+    height: 80%;
+}
+
+#ceo{
+    flex-basis: 100%;
+}

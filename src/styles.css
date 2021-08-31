@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pozadina{
+    background-color: #5d2057;
+    color: #ffffff;
+}
+
+.ljubicasta{
+    color: #5d2057;
+}
+
+.ljubicasto{
+    background-color: #5d2057;
+}
+
+.siva{
+    background-color: #f2f2f2;
+}
+
+.sivo{
+    color: #f2f2f2;
+}
+
+.roza{
+    background-color: rgba(255,164,2,0.2);
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+     transition: 0.5s;
+}
+
+a:hover{
+    color: #ffffff !important;
+}
+
+.btn:hover{
+     transition: 0.2s;
+}
+
+.card:hover{
+     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+     transition: 0.2s;
+}

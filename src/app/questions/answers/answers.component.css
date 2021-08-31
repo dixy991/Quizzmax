@@ -1,0 +1,11 @@
+.col{
+    height: 100px;
+}
+
+.col:hover{
+    cursor: pointer;
+}
+
+.isDisabled{
+    pointer-events: none;
+}

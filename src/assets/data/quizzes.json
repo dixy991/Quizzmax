@@ -1,0 +1,966 @@
+[
+    {
+        "id": 1,
+        "title": "Nouns",
+        "img": {
+            "src": "quizz8.jfif",
+            "alt": "Nouns quizz"
+        },
+        "active": true,
+        "category": 2,
+        "questions": [
+            {
+                "name": "Tom had a pajama party on Friday.Find the proper nouns.",
+                "answers": [
+                    {
+                        "options": "Tom, Friday",
+                        "correct": true
+                    },
+                    {
+                        "options": "pajama",
+                        "correct": false
+                    },
+                    {
+                        "options": "party",
+                        "correct": false
+                    },
+                    {
+                        "options": "Friday",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Answer true or false. When you write a proper noun you need to use a capital letter?",
+                "answers": [
+                    {
+                        "options": "false",
+                        "correct": false
+                    },
+                    {
+                        "options": "true",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "name": "Which of the following is a proper noun?",
+                "answers": [
+                    {
+                        "options": "school",
+                        "correct": false
+                    },
+                    {
+                        "options": "living room",
+                        "correct": false
+                    },
+                    {
+                        "options": "New York City",
+                        "correct": true
+                    },
+                    {
+                        "options": "tiredness",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "These are examples of nouns:",
+                "answers": [
+                    {
+                        "options": "bed, Nataly",
+                        "correct": true
+                    },
+                    {
+                        "options": "in",
+                        "correct": false
+                    },
+                    {
+                        "options": "outside of",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Which noun in this sentence names a place?Kim and her friend enjoy having a picnic on the beach.",
+                "answers": [
+                    {
+                        "options": "friend",
+                        "correct": false
+                    },
+                    {
+                        "options": "beach",
+                        "correct": true
+                    },
+                    {
+                        "options": "picnic",
+                        "correct": false
+                    },
+                    {
+                        "options": "Kim",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Which word is a common noun?",
+                "answers": [
+                    {
+                        "options": "money",
+                        "correct": true
+                    },
+                    {
+                        "options": "New York City",
+                        "correct": false
+                    },
+                    {
+                        "options": "which",
+                        "correct": false
+                    },
+                    {
+                        "options": "to live",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Back to school",
+        "img": {
+            "src": "quizz7.jfif",
+            "alt": "School quizz"
+        },
+        "active": true,
+        "category": 2,
+        "questions": [
+            {
+                "name": "People have liked dolphins for __________ years",
+                "answers": [
+                    {
+                        "options": "thousands of",
+                        "correct": true
+                    },
+                    {
+                        "options": "long",
+                        "correct": false
+                    },
+                    {
+                        "options": "any",
+                        "correct": false
+                    },
+                    {
+                        "options": "much",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "The rhyming word of lake is : ",
+                "answers": [
+                    {
+                        "options": "make",
+                        "correct": true
+                    },
+                    {
+                        "options": "sun",
+                        "correct": false
+                    },
+                    {
+                        "options": "look",
+                        "correct": false
+                    },
+                    {
+                        "options": "kale",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "The past tense of grow is",
+                "answers": [
+                    {
+                        "options": "grown",
+                        "correct": false
+                    },
+                    {
+                        "options": "growed",
+                        "correct": false
+                    },
+                    {
+                        "options": "grew",
+                        "correct": true
+                    },
+                    {
+                        "options": "has grown",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "An exclamation mark (!) is used",
+                "answers": [
+                    {
+                        "options": "when the sentence shows some emotions",
+                        "correct": true
+                    },
+                    {
+                        "options": "when the sentence is too long",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Integer Addition",
+        "img": {
+            "src": "quizz6.png",
+            "alt": "Integer Addition quizz"
+        },
+        "active": true,
+        "category": 1,
+        "questions": [
+            {
+                "name": "(-3) + (-8)",
+                "answers": [
+                    {
+                        "options": "-11",
+                        "correct": true
+                    },
+                    {
+                        "options": "5",
+                        "correct": false
+                    },
+                    {
+                        "options": "-5",
+                        "correct": false
+                    },
+                    {
+                        "options": "3",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "14 + -12 + 6",
+                "answers": [
+                    {
+                        "options": "-8",
+                        "correct": false
+                    },
+                    {
+                        "options": "30",
+                        "correct": false
+                    },
+                    {
+                        "options": "10",
+                        "correct": false
+                    },
+                    {
+                        "options": "8",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "name": "A roller coaster begins at 82 feet above ground level. Then it descends 107 feet. Find the height of the coaster after the first descent.",
+                "answers": [
+                    {
+                        "options": "-25 feet",
+                        "correct": true
+                    },
+                    {
+                        "options": "20 feet",
+                        "correct": false
+                    },
+                    {
+                        "options": "25 feet",
+                        "correct": false
+                    },
+                    {
+                        "options": "-20 feet",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "(-9) + 1",
+                "answers": [
+                    {
+                        "options": "8",
+                        "correct": false
+                    },
+                    {
+                        "options": "-8",
+                        "correct": true
+                    },
+                    {
+                        "options": "10",
+                        "correct": false
+                    },
+                    {
+                        "options": "-10",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "True or false: Adding a negative number has the same effect as subtracting a positive number",
+                "answers": [
+                    {
+                        "options": "true",
+                        "correct": true
+                    },
+                    {
+                        "options": "false",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Introducing Yourself in Spanish",
+        "img": {
+            "src": "quizz5.jfif",
+            "alt": "Spanish introduction quiz"
+        },
+        "active": true,
+        "category": 2,
+        "questions": [
+            {
+                "name": "If someone says 'Soy de Santiago,' which continent are they from?",
+                "answers": [
+                    {
+                        "options": "North America",
+                        "correct": false
+                    },
+                    {
+                        "options": "South America",
+                        "correct": true
+                    },
+                    {
+                        "options": "Asia",
+                        "correct": false
+                    },
+                    {
+                        "options": "Europe",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "All Spanish verbs end in..",
+                "answers": [
+                    {
+                        "options": "OR",
+                        "correct": false
+                    },
+                    {
+                        "options": "AR, ER or IR",
+                        "correct": true
+                    },
+                    {
+                        "options": "ED",
+                        "correct": false
+                    },
+                    {
+                        "options": "ET",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "The word 'dieciséis' comes from the two words in Spanish for...",
+                "answers": [
+                    {
+                        "options": "ten chairs",
+                        "correct": false
+                    },
+                    {
+                        "options": "look sit",
+                        "correct": false
+                    },
+                    {
+                        "options": "10 + 6",
+                        "correct": true
+                    },
+                    {
+                        "options": "say six",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "'Soy de' is best used to...",
+                "answers": [
+                    {
+                        "options": "say what time it is",
+                        "correct": false
+                    },
+                    {
+                        "options": "say where you're from",
+                        "correct": true
+                    },
+                    {
+                        "options": "how are you",
+                        "correct": false
+                    },
+                    {
+                        "options": "what do you do",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "'Soy' means...",
+                "answers": [
+                    {
+                        "options": "I am",
+                        "correct": true
+                    },
+                    {
+                        "options": "soya",
+                        "correct": false
+                    },
+                    {
+                        "options": "sun",
+                        "correct": false
+                    },
+                    {
+                        "options": "Spain",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "If someone says 'Soy de Bogota,' which country are they from?",
+                "answers": [
+                    {
+                        "options": "Venezuela",
+                        "correct": false
+                    },
+                    {
+                        "options": "USA",
+                        "correct": false
+                    },
+                    {
+                        "options": "Colombia",
+                        "correct": true
+                    },
+                    {
+                        "options": "Argentina",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "A verb is...",
+                "answers": [
+                    {
+                        "options": "a way to describe a word",
+                        "correct": false
+                    },
+                    {
+                        "options": "an action word",
+                        "correct": true
+                    },
+                    {
+                        "options": "a continent",
+                        "correct": false
+                    },
+                    {
+                        "options": "a punctuation",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Mi cumpleaños es' is best used for...",
+                "answers": [
+                    {
+                        "options": "telling when your birthday is",
+                        "correct": true
+                    },
+                    {
+                        "options": "asking how much it costs",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "'14' in Spanish is...",
+                "answers": [
+                    {
+                        "options": "forteenes",
+                        "correct": false
+                    },
+                    {
+                        "options": "catorce",
+                        "correct": true
+                    },
+                    {
+                        "options": "diesequatro",
+                        "correct": false
+                    },
+                    {
+                        "options": "quatrodiese",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Introduction to Web Design",
+        "img": {
+            "src": "quizz1.png",
+            "alt": "Web design quizz"
+        },
+        "active": true,
+        "category": 3,
+        "questions": [
+            {
+                "name": "What is 'html' used for?",
+                "answers": [
+                    {
+                        "options": "to spellcheck webpages",
+                        "correct": false
+                    },
+                    {
+                        "options": "to create webpages",
+                        "correct": true
+                    },
+                    {
+                        "options": "to destroy viruses",
+                        "correct": false
+                    },
+                    {
+                        "options": "to search websites",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "______________ is a single page within a website",
+                "answers": [
+                    {
+                        "options": "Website",
+                        "correct": false
+                    },
+                    {
+                        "options": "Internet",
+                        "correct": false
+                    },
+                    {
+                        "options": "Webpage",
+                        "correct": true
+                    },
+                    {
+                        "options": "Web",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "The process of planning and creating websites.",
+                "answers": [
+                    {
+                        "options": "web content",
+                        "correct": false
+                    },
+                    {
+                        "options": "web creation",
+                        "correct": true
+                    },
+                    {
+                        "options": "website",
+                        "correct": false
+                    },
+                    {
+                        "options": "web development tools",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Which is the correct spelling?",
+                "answers": [
+                    {
+                        "options": "hyprelink",
+                        "correct": false
+                    },
+                    {
+                        "options": "hippolink",
+                        "correct": false
+                    },
+                    {
+                        "options": "hypolink",
+                        "correct": false
+                    },
+                    {
+                        "options": "hyperlink",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "name": "Which of these is NOT a web browser?",
+                "answers": [
+                    {
+                        "options": "Chrome",
+                        "correct": false
+                    },
+                    {
+                        "options": "Firefox",
+                        "correct": false
+                    },
+                    {
+                        "options": "Facebook",
+                        "correct": true
+                    },
+                    {
+                        "options": "Internet Explorer",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "What does CSS stand for?",
+                "answers": [
+                    {
+                        "options": "Cascading Style Sheets",
+                        "correct": true
+                    },
+                    {
+                        "options": "Colorful Style Spread",
+                        "correct": false
+                    },
+                    {
+                        "options": "Computer Style Spread",
+                        "correct": false
+                    },
+                    {
+                        "options": "Creative Style Sheets",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "What is a 'url'?",
+                "answers": [
+                    {
+                        "options": "a webpage index",
+                        "correct": false
+                    },
+                    {
+                        "options": "the address for a website",
+                        "correct": true
+                    },
+                    {
+                        "options": "an automatic spellchecker",
+                        "correct": false
+                    },
+                    {
+                        "options": "a computer virus",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "The language used to add components to a Webpage is the ___?",
+                "answers": [
+                    {
+                        "options": "HTML",
+                        "correct": true
+                    },
+                    {
+                        "options": "Scratch",
+                        "correct": false
+                    },
+                    {
+                        "options": "Javascript",
+                        "correct": false
+                    },
+                    {
+                        "options": "CSS",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "A collection of web pages.",
+                "answers": [
+                    {
+                        "options": "www",
+                        "correct": false
+                    },
+                    {
+                        "options": "server",
+                        "correct": false
+                    },
+                    {
+                        "options": "web links",
+                        "correct": false
+                    },
+                    {
+                        "options": "website",
+                        "correct": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Past Simple: Questions and Answers",
+        "img": {
+            "src": "quizz3.png",
+            "alt": "Past simple quizz"
+        },
+        "active": true,
+        "category": 2,
+        "questions": [
+            {
+                "name": "________ did you write yesterday?I wrote a short story.",
+                "answers": [
+                    {
+                        "options": "When",
+                        "correct": false
+                    },
+                    {
+                        "options": "What",
+                        "correct": true
+                    },
+                    {
+                        "options": "Whom",
+                        "correct": false
+                    },
+                    {
+                        "options": "Why",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Did she _________ the piano?Yes, she did.",
+                "answers": [
+                    {
+                        "options": "played",
+                        "correct": false
+                    },
+                    {
+                        "options": "plays",
+                        "correct": false
+                    },
+                    {
+                        "options": "play",
+                        "correct": true
+                    },
+                    {
+                        "options": "has",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "What did you ______ for lunch last Friday?We ate fish and vegetables.",
+                "answers": [
+                    {
+                        "options": "do",
+                        "correct": false
+                    },
+                    {
+                        "options": "eat",
+                        "correct": true
+                    },
+                    {
+                        "options": "catch",
+                        "correct": false
+                    },
+                    {
+                        "options": "eaten",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "What time ________ the concert start?It started at 9 o'clock.",
+                "answers": [
+                    {
+                        "options": "it is",
+                        "correct": false
+                    },
+                    {
+                        "options": "did",
+                        "correct": true
+                    },
+                    {
+                        "options": "when",
+                        "correct": false
+                    },
+                    {
+                        "options": "starts",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "_________ did she visit last night?She visited her friend Paul.",
+                "answers": [
+                    {
+                        "options": "Why",
+                        "correct": false
+                    },
+                    {
+                        "options": "Who",
+                        "correct": true
+                    },
+                    {
+                        "options": "Where",
+                        "correct": false
+                    },
+                    {
+                        "options": "What",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Thank You Vocabulary",
+        "img": {
+            "src": "quizz2.png",
+            "alt": "Thank you vocab quizz"
+        },
+        "active": true,
+        "category": 2,
+        "questions": [
+            {
+                "name": "(noun) the state of feeling grateful for something; ready to show appreciation",
+                "answers": [
+                    {
+                        "options": "express",
+                        "correct": false
+                    },
+                    {
+                        "options": "gratefully",
+                        "correct": false
+                    },
+                    {
+                        "options": "courtesy",
+                        "correct": false
+                    },
+                    {
+                        "options": "gratitude",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "name": "The letter __________ his service to his community by honoring him as the recipient of the Community Hero Award.",
+                "answers": [
+                    {
+                        "options": "gave",
+                        "correct": false
+                    },
+                    {
+                        "options": "honored",
+                        "correct": false
+                    },
+                    {
+                        "options": "acknowledged",
+                        "correct": true
+                    },
+                    {
+                        "options": "send",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "(noun) the quality of being honest and having strong moral principles; an honest person",
+                "answers": [
+                    {
+                        "options": "integrity",
+                        "correct": true
+                    },
+                    {
+                        "options": "esteem",
+                        "correct": false
+                    },
+                    {
+                        "options": "exemplary",
+                        "correct": false
+                    },
+                    {
+                        "options": "generosity",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "(noun) The quality of being giving and kind",
+                "answers": [
+                    {
+                        "options": "gratitude",
+                        "correct": false
+                    },
+                    {
+                        "options": "generosity",
+                        "correct": true
+                    },
+                    {
+                        "options": "honest",
+                        "correct": false
+                    },
+                    {
+                        "options": "admiration",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "name": "Students with strong leadership skills and _________are more likely to be selected for student leadership.",
+                "answers": [
+                    {
+                        "options": "gratitude",
+                        "correct": false
+                    },
+                    {
+                        "options": "integrity",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "name": "(noun) showing of politeness in attitude and behavior towards other people",
+                "answers": [
+                    {
+                        "options": "generosity",
+                        "correct": false
+                    },
+                    {
+                        "options": "recognition",
+                        "correct": false
+                    },
+                    {
+                        "options": "courtesy",
+                        "correct": true
+                    },
+                    {
+                        "options": "exemplary",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+<div class="card mx-3 mt-3" style="width: 15rem;">
+    <img src="../../../assets/img/{{quiz.img.src}}" class="card-img-top" alt="{{quiz.img.alt}}">
+    <div class="card-body">
+        <h5 class="card-title">{{quiz.title}}</h5>
+        <div class="d-flex justify-content-between">
+            <p class="card-text">{{quiz.questions.length}} questions</p>
+            <a [routerLink]="['/quizz',quiz.id]"><small class="ljubicasto rounded p-2">Play <i
+                        class="fa fa-play"></i></small></a>
+        </div>
+    </div>
+</div>

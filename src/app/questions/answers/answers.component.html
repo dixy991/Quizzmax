@@ -1,0 +1,27 @@
+<div class="card text-center bg-transparent siva" @rotate>
+    <div class="card-header ljubicasto text-muted">
+        <span [@blinking]="blinkingState">{{displayTimer()}}</span>
+    </div>
+    <div class="card-body siva">
+        <h5 class="card-title bg-transparent">{{quizz.questions[currentQuestion].name}}</h5>
+        <small class="card-text bg-transparent">(Choose only one answer)</small>
+        <div class="progress w-75 mx-auto mb-5">
+            <div class="progress-bar pozadina" role="progressbar"
+                [style.width.%]="(progress)*(100/quizz.questions.length)" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col border d-flex justify-content-center align-items-center"
+                *ngFor="let q of quizz.questions[currentQuestion].answers" (click)="selectedAnswer(q.correct)"
+                appBackgroundColor [correctAnswer]="q.correct" [class.isDisabled]="isDisabled">
+                {{q.options | uppercase}}
+            </div>
+        </div>
+    </div>
+    <div class="card-footer ljubicasto text-muted">
+        <button (click)="finish()" class="btn bg-light text-dark" *ngIf="isFinished;else qLength">See results</button>
+        <ng-template #qLength>
+            {{currentQuestion+1 }} of {{quizz.questions.length}}
+        </ng-template>
+    </div>
+</div>

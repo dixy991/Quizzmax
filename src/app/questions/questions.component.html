@@ -1,0 +1,15 @@
+<div class="container-fluid visina d-flex flex-wrap pt-3">
+    <div id="ceo">
+        <a routerLink="/quizzes" class="text-light"><i class="fa fa-arrow-left h6"></i> Back</a>
+    </div>
+    <div class="container-fluid border rounded d-flex align-items-center">
+        <div class="container">
+            <app-answers [quizz]="quizz" *ngIf="!isFinished;else prikaziRezultat"
+                (newItemEvent)="prikazRezultata($event)"></app-answers>
+            <ng-template #prikaziRezultat>
+                <app-result [correctAnswers]="correctAnswers" (newItemEvent)="prikazRezultata($event)">
+                </app-result>
+            </ng-template>
+        </div>
+    </div>
+</div>

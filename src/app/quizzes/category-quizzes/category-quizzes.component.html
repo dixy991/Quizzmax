@@ -1,0 +1,22 @@
+<div class="row mt-5">
+    <div class="col-12 text-center">
+        <h1>What will you be testing today?</h1>
+    </div>
+</div>
+<div class="row my-3 mb-5">
+    <div class="col-12 text-center">
+        <a [routerLink]="['/quizzes',c.id]" @flyIn class="btn btn-lg ljubicasto text-light mx-2"
+            *ngFor="let c of categories">{{c.name}}</a>
+    </div>
+</div>
+<div class="row" *ngFor="let c of catquiz">
+    <div class="col-12">
+        <h3>{{c.category.name}}<a [routerLink]="['/quizzes',c.category.id]" class="btn float-end">See
+                more</a>
+        </h3>
+    </div>
+    <div class="col-12 my-5 mt-3 d-flex flex-wrap">
+        <app-quizz @zoom [quiz]="q" *ngFor="let q of c.quizzes | filterByActivity | limitNumberOfQuizzes:4 ">
+        </app-quizz>
+    </div>
+</div>

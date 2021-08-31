@@ -1,0 +1,13 @@
+<nav class="navbar fixed-top pozadina border-bottom">
+    <div class="container-fluid">
+        <h1 class="h4 mt-1">
+            <a class="navbar-brand text-light" routerLink="">
+                Quizzmax
+            </a>
+        </h1>
+        <div class="w-25 d-flex justify-content-end" *ngIf="isLoggedIn">
+            <a routerLink="/quizzes" class="nav-item text-light w-25">Home</a>
+            <a (click)="logOut()" href="#" class="nav-item text-light">Log out</a>
+        </div>
+    </div>
+</nav>

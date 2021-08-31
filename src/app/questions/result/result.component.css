@@ -1,0 +1,11 @@
+a:hover{
+    color: #000000 !important;
+}
+
+figure{
+    width: 200px;
+    position: absolute;
+    left: 42%;
+    top: 10%;
+    opacity: 0.2;
+}

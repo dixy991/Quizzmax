@@ -1,0 +1,62 @@
+#pozadina{
+    background-image: url("../../assets/img/1-HERO-Digital_Collage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: right;
+    background-color: transparent;
+}
+.bottom-layer{
+    position: absolute;
+    bottom: 6%;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255,164,2,0.2);
+    transform: skewY(-3deg);
+    z-index: -5;
+}
+
+.globe{
+    position: absolute;
+    bottom: 7%;
+    width: 300px;
+    left: 9%;
+}
+
+header{
+    position: relative;
+}
+
+section:last-child{
+    background-color: rgba(255,164,2,0.2);
+}
+
+figure{
+    height: 250px;
+    width: 250px;
+}
+
+.krug{
+    width: 15%;
+    height: 50%;
+    background-color: #ffffff;
+    font-size: 25px;
+}
+
+.card{
+    background-color: rgba(255,164,2,0.2);
+}
+
+.btn{
+    box-shadow:  0px 4px 8px rgb(0 0 0 / 10%), 0px 4px 0px #381535;
+}
+
+.btn:hover{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+p,h1{
+    font-weight: bold;
+}

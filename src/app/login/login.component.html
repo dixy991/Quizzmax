@@ -1,0 +1,46 @@
+<app-navigation></app-navigation>
+<div class="pozadina d-flex align-items-center">
+    <figure @fade>
+        <img src="../../assets/img/7-CTA_SECTION-Left.png" class="w-100" alt="Left computer log in">
+    </figure>
+    <div class="container">
+        <div class="row text-dark">
+            <div class="col-6 p-5 pt-3 offset-3 rounded bg-white">
+                <h6 class="text-center">Create a player's name</h6>
+                <form #registerForm="ngForm" (ngSubmit)="OnSubmit(registerForm)">
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Name<span class="text-danger h5"
+                                *ngIf="name.errors?.required">*</span></label>
+                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+                            required name="name" #name="ngModel" ngModel minlength="3">
+                        <div id="nameHelp" *ngIf="name.errors?.minlength" class="form-text">Name must have at least 3
+                            characters.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail" class="form-label">Email address<span class="text-danger h5"
+                                *ngIf="email.errors?.required">*</span></label>
+                        <input type="email" class="form-control" id="exampleInputEmail" [disabled]="!emailconfirm"
+                            [required]="emailconfirm" name="email" #email="ngModel" ngModel [pattern]="emailPattern"
+                            aria-describedby="emailHelp">
+                        <div class="form-text" id="emailHelp" *ngIf="email.errors?.pattern">
+                            Email must be in this pattern : example@gmail.com
+                        </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="sendResults" #sendResults="ngModel" ngModel
+                            name="sendResults" (change)="emailconfirm=!emailconfirm" [checked]="emailconfirm">
+                        <label class="form-check-label" for="sendResults">Send results</label>
+                    </div>
+                    <button type="submit" [disabled]="!registerForm.valid"
+                        class="btn ljubicasto text-light">Submit</button>
+                    <div class="alert mt-3 alert-danger" *ngIf="!registerForm.valid" role="alert">
+                        * Required
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <figure @fade>
+        <img src="../../assets/img/7-CTA_SECTION-Right.png" class="w-100" alt="Right computer log in">
+    </figure>
+</div>

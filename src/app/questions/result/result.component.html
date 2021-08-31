@@ -1,0 +1,18 @@
+<div class="row" @photoState>
+    <div class="col-12 text-center">
+        <h1 class="mb-4 ljubicasta">Summary</h1>
+        <figure>
+            <img src="../../../assets/img/5-PRODUCT_LINEUP-For_Work.png" class="w-100" alt="Result state">
+        </figure>
+        <p class="display-4 text-light"> {{displayResult()}}</p>
+        <div class="row mt-5">
+            <div class="col-6 offset-3">
+                <div class="d-grid gap-2">
+                    <a (click)="startOver()" class="btn btn-lg pozadina">Start
+                        over</a><br />
+                    <a routerLink="/quizzes" class="btn btn-lg bg-light">Try other</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
